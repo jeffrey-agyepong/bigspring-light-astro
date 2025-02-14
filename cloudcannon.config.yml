@@ -1,0 +1,45 @@
+source: /src/
+collections_config:
+  pages:
+    path: content/pages
+    name: Pages
+    icon: wysiwyg
+    disable_url: true
+  blog:
+    path: content/blog
+    name: Blog
+    icon: event_available
+    disable_url: true
+  config:
+    path: config
+    name: Config
+    icon: coffee
+    disable_url: true
+  contact:
+    path: content/contact
+    name: Contact
+    icon: contacts
+    disable_url: true
+  faq:
+    path: content/faq
+    name: Faq
+    icon: fax
+    disable_url: true
+  homepage:
+    path: content/homepage
+    name: Homepage
+    icon: compare
+    disable_url: true
+  pricing:
+    path: content/pricing
+    name: Pricing
+    icon: dining
+    disable_url: true
+paths:
+  static: public
+  uploads: public/uploads
+timezone: America/Edmonton
+markdown:
+  engine: commonmark
+  options:
+    gfm: true
