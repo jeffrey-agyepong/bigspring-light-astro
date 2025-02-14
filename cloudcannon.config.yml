@@ -101,6 +101,10 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+_inputs:
+  contacts[*]:
+    type: markdown
+    cascade: true
 timezone: America/Edmonton
 markdown:
   engine: commonmark
